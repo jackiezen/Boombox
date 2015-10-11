@@ -44,14 +44,10 @@ body {
 	border-left: solid 20px #451818;
 	border-right: solid 20px #451818;
 	display: inline-block;
-	border-top-left-radius: 1%;
 }
 
 #topButtons {
 	width: 290px;
-	#desktop-nav-toggle.switch {
-		transform: rotate(180deg);
-	}
 	height: 20px;
 	margin-top: 40px;
 	padding-left: 10px;
@@ -133,7 +129,7 @@ body {
 	width: 600px;
 	height: 290px;
 	background-color: #D16618;
-	margin-top: -4px;
+	margin-top: -5px;
 	padding-top: 30px;
 	padding-left: 20px;
 }
@@ -151,7 +147,6 @@ body {
 	margin-left: 20px;
 	position: relative;
 	top: 50%;
-	transform: translateY(-50%);
 }
 
 #controlButtons {

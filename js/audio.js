@@ -48,7 +48,6 @@ $(document).ready(function c() {
 		$('.buttonTop3, .buttonTop3On').toggle();
 	});
 
-
 	var audioElement3 = document.createElement('audio');
 	audioElement3.setAttribute('src', 'audio/blank_space.mp3', 'loop');
 
@@ -64,9 +63,9 @@ $(document).ready(function c() {
 });
 
 $(document).ready(function d() {
-	$('.buttonPowerOn').hide();
-	$('.buttonPower,.buttonPowerOn').click(function d() {
-		$('.buttonPower,.buttonPowerOn').toggle();
+	$('.buttonPower').hide();
+	$('.buttonPowerOn,.buttonPower').click(function d() {
+		$('.buttonPowerOn,.buttonPower').toggle();
 	});
 
 
