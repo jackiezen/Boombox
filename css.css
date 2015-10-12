@@ -74,6 +74,12 @@ body {
 	margin-top: 50px;
 }
 
+.buttonTopFiller {
+	width: 5px;
+	height: 30px;
+	display: inline-block;
+}
+
 .buttonTop1 {
 	width: 60px;
 	height: 30px;
