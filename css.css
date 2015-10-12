@@ -2,10 +2,25 @@
 
 body {
 	background-color: #F2E4B3;
+	font-family: 'Lobster', cursive;
+}
+
+h1 {
+	color: #EA8A72;
+	text-align: center;
+	font-size: 100px;
+	line-height: 80px;
+}
+
+h2 {
+	color: #EA8A72;
+	text-align: center;
+	font-size: 30px;
+	line-height: 5px;
 }
 
 #boombox {
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 #boombox,
@@ -72,15 +87,12 @@ body {
 	height: 30px;
 	position: relative;
 	margin-top: 50px;
-<<<<<<< HEAD
-=======
 }
 
 .buttonTopFiller {
 	width: 5px;
 	height: 30px;
 	display: inline-block;
->>>>>>> refs/remotes/origin/master
 }
 
 .buttonTop1 {
@@ -462,8 +474,6 @@ body {
 	border-bottom: 20px solid #A62926;
 	cursor: pointer;
 }
-
-
 
 #cassette2 {
 	background-color: #12B8DE;
