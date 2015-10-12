@@ -33,6 +33,27 @@ body {
 	background: #451818;
 	margin-top: -5px;
 	margin-left: -5px;
+	cursor: pointer;
+}
+
+#antenna1 {
+	height: 250px;
+	width: 5px;
+	background-color: #451818;
+	margin-right: 70px;
+	display: inline-block;
+	margin-left: 60px;
+	transform: translateY(50px);
+}
+
+#antennaDot1 {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #451818;
+	margin-top: -5px;
+	margin-left: -5px;
+	cursor: pointer;
 }
 
 #handle {
@@ -133,6 +154,8 @@ body {
 	padding-left: 30px;
 	padding-right: 30px;
 	margin-top: -5px;
+	z-index: 1;
+	position: relative;
 }
 
 #controls {
@@ -144,12 +167,13 @@ body {
 
 #volume {
 	width: 300px;
-	height: 8px;
+	height: 10px;
 	background-color: #451818;
 	margin-left: 20px;
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+	cursor: pointer;
 }
 
 #controlButtons {
@@ -169,6 +193,7 @@ body {
 	background-color: #F2E4B3;
 	display: inline-block;
 	margin-right: 10px;
+	cursor: pointer;
 }
 
 .buttonControla {
@@ -181,6 +206,7 @@ body {
 	animation-name: buttonControla;
 	animation-duration: 1s;
 	animation-iteration-count: infinite;
+	cursor: pointer;
 }
 
 @keyframes buttonControla {
@@ -199,6 +225,7 @@ body {
 	background-color: #F2E4B3;
 	display: inline-block;
 	margin-right: 10px;
+	cursor: pointer;
 }
 
 .buttonControl2a {
@@ -211,6 +238,7 @@ body {
 	animation-name: buttonControl2a;
 	animation-duration: 0.7s;
 	animation-iteration-count: infinite;
+	cursor: pointer;
 }
 
 @keyframes buttonControl2a {
@@ -229,6 +257,7 @@ body {
 	background-color: #F2E4B3;
 	display: inline-block;
 	margin-right: 10px;
+	cursor: pointer;
 }
 
 .buttonControl3a {
@@ -241,6 +270,7 @@ body {
 	animation-name: buttonControl3a;
 	animation-duration: 0.8s;
 	animation-iteration-count: infinite;
+	cursor: pointer;
 }
 
 @keyframes buttonControl3a {
@@ -248,7 +278,7 @@ body {
 		background-color: #F2E4B3;
 	}
 	to {
-		background-color: #AEDDE5;
+		background-color: #0E448B;
 	}
 }
 
@@ -259,6 +289,7 @@ body {
 	background-color: #F2E4B3;
 	display: inline-block;
 	margin-right: 10px;
+	cursor: pointer;
 }
 
 .buttonControl4a {
@@ -271,6 +302,7 @@ body {
 	animation-name: buttonControl4a;
 	animation-duration: 0.6s;
 	animation-iteration-count: infinite;
+	cursor: pointer;
 }
 
 @keyframes buttonControl4a {
@@ -289,6 +321,7 @@ body {
 	background-color: #F2E4B3;
 	display: inline-block;
 	margin-right: 10px;
+	cursor: pointer;
 }
 
 .buttonControl5a {
@@ -301,6 +334,7 @@ body {
 	animation-name: buttonControl5a;
 	animation-duration: 0.8s;
 	animation-iteration-count: infinite;
+	cursor: pointer;
 }
 
 @keyframes buttonControl5a {
@@ -319,6 +353,7 @@ body {
 	background-color: #F2E4B3;
 	display: inline-block;
 	margin-right: 10px;
+	cursor: pointer;
 }
 
 .buttonControl6a {
@@ -331,6 +366,7 @@ body {
 	animation-name: buttonControl6a;
 	animation-duration: 0.5s;
 	animation-iteration-count: infinite;
+	cursor: pointer;
 }
 
 @keyframes buttonControl6a {
@@ -352,6 +388,7 @@ body {
 	animation-name: buttonControl;
 	animation-duration: 0.8s;
 	animation-iteration-count: infinite;
+	cursor: pointer;
 }
 
 @keyframes buttonControl {
@@ -414,6 +451,42 @@ body {
 	margin-right: auto;
 	margin-top: 15px;
 	border-bottom: 20px solid #A62926;
+	cursor: pointer;
+}
+
+
+
+#cassette2 {
+	background-color: #12B8DE;
+	width: 130px;
+	height: 55px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	border-bottom: 20px solid #F3BD1D;
+	cursor: pointer;
+}
+
+.reel2 {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #F3BD1D;
+	display: inline-block;
+	float: left;
+	margin-top: 15px;
+}
+
+#window2 {
+	width: 50px;
+	height: 25px;
+	border-radius: 25%;
+	background: #F3BD1D;
+	display: inline-block;
+	float: left;
+	margin-top: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .reel {
@@ -428,7 +501,7 @@ body {
 
 .spin1 {
 	width: 25px;
-	margin-top: 10px;
+	margin-top: 12px;
 	background-color: #451818;
 	height: 3px;
 	border-radius: 50%;
@@ -436,7 +509,7 @@ body {
 
 .spin {
 	width: 25px;
-	margin-top: 10px;
+	margin-top: 12px;
 	background-color: #451818;
 	height: 3px;
 	border-radius: 50%;
@@ -479,4 +552,22 @@ body {
 	margin-right: auto;
 	width: 110px;
 	height: 20px;
+}
+
+#point {
+	margin-left: 5px;
+	width: 5px;
+	height: 10px;
+	background-color: #F2E4B3;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+}
+
+#volume:hover #point {
+	-webkit-transform: translate(285px);
+	-moz-transform: translate(285px);
+	-o-transform: translate(285px);
+	-ms-transform: translate(285px);
 }
