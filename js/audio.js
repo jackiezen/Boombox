@@ -48,7 +48,6 @@ $(document).ready(function c() {
 		$('.buttonTop3, .buttonTop3On').toggle();
 	});
 
-
 	var audioElement3 = document.createElement('audio');
 	audioElement3.setAttribute('src', 'audio/blank_space.mp3', 'loop');
 
@@ -64,10 +63,15 @@ $(document).ready(function c() {
 });
 
 $(document).ready(function d() {
-	$('.buttonPowerOn').hide();
-	$('.buttonPower,.buttonPowerOn').click(function d() {
-		$('.buttonPower,.buttonPowerOn').toggle();
+	var audioElement4 = document.createElement('audio');
+	audioElement4.setAttribute('src', 'audio/click.mp3');
+
+	$('.buttonPower,.buttonControl,.buttonControl2,.buttonControl3,.buttonControl4,.buttonControl5,.buttonControl6,.spin1').hide();
+	$('.buttonPowerOn,.buttonPower,.buttonControl,.buttonControla,.buttonControl2,.buttonControl2a,.buttonControl3,.buttonControl3a,.buttonControl4,.buttonControl4a,.buttonControl5,.buttonControl5a,.buttonControl6,.buttonControl6a,.spin1,.spin').click(function d() {
+		audioElement4.play();
+		$('.buttonPowerOn,.buttonPower,.buttonControl,.buttonControla,.buttonControl2,.buttonControl2a,.buttonControl3,.buttonControl3a,.buttonControl4,.buttonControl4a,.buttonControl5,.buttonControl5a,.buttonControl6,.buttonControl6a,.spin1,.spin').toggle();
 	});
+
 
 
 });
