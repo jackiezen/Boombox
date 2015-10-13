@@ -486,6 +486,8 @@ h2 {
 	height: 230px;
 	border: 15px solid #A62926;
 	display: inline-block;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .speakerIn {
