@@ -12,8 +12,6 @@ function init() {
 	f();
 }
 
-
-
 function a() {
 	$('.buttonTop1On').hide();
 	$('.buttonTop1, .buttonTop1On').click(function a() {
@@ -91,8 +89,14 @@ function d() {
 }
 
 function e() {
+	
+	var audioElement6 = document.createElement('audio');
+	audioElement6.setAttribute('src', 'audio/antenna.mp3');
+	
 	$('#antenna1').hide();
+	
 	$('#antenna, #antenna1').click(function e() {
+		audioElement6.play();
 		$('#antenna, #antenna1').toggle();
 	});
 	return false;
@@ -103,8 +107,6 @@ function f() {
 	audioElement5.setAttribute('src', 'audio/click.mp3');
 
 	$('#cassette2').hide();
-
-
 
 	$('#cassette, #cassette2').click(function f() {
 		audioElement5.play();
