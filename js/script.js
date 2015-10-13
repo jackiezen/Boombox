@@ -1,11 +1,24 @@
 // MADE WITH LOVE BY JACQUELYN ZEN
+$(function () {
+	init();
+});
 
-$(document).ready(function a() {
+function init() {
+	a();
+	b();
+	c();
+	d();
+	e();
+	f();
+}
+
+
+
+function a() {
 	$('.buttonTop1On').hide();
 	$('.buttonTop1, .buttonTop1On').click(function a() {
 		$('.buttonTop1, .buttonTop1On').toggle();
 	});
-
 
 	var audioElement1 = document.createElement('audio');
 	audioElement1.setAttribute('src', 'audio/hotline_bling.mp3');
@@ -19,9 +32,10 @@ $(document).ready(function a() {
 	$('.pause1').click(function a() {
 		audioElement1.pause();
 	});
-})
+	return false;
+}
 
-$(document).ready(function b() {
+function b() {
 	$('.buttonTop2On').hide();
 	$('.buttonTop2, .buttonTop2On').click(function b() {
 		$('.buttonTop2, .buttonTop2On').toggle();
@@ -40,9 +54,10 @@ $(document).ready(function b() {
 	$('.pause2').click(function b() {
 		audioElement2.pause();
 	});
-});
+	return false;
+}
 
-$(document).ready(function c() {
+function c() {
 	$('.buttonTop3On').hide();
 	$('.buttonTop3, .buttonTop3On').click(function c() {
 		$('.buttonTop3, .buttonTop3On').toggle();
@@ -60,11 +75,10 @@ $(document).ready(function c() {
 	$('.pause3').click(function c() {
 		audioElement3.pause();
 	});
+	return false;
+}
 
-	
-});
-
-$(document).ready(function d() {
+function d() {
 	var audioElement4 = document.createElement('audio');
 	audioElement4.setAttribute('src', 'audio/tape.mp3');
 
@@ -73,16 +87,18 @@ $(document).ready(function d() {
 		audioElement4.play();
 		$('.buttonPowerOn,.buttonPower,.buttonControl,.buttonControla,.buttonControl2,.buttonControl2a,.buttonControl3,.buttonControl3a,.buttonControl4,.buttonControl4a,.buttonControl5,.buttonControl5a,.buttonControl6,.buttonControl6a,.spin1,.spin').toggle();
 	});
-});
+	return false;
+}
 
-$(document).ready(function e() {
+function e() {
 	$('#antenna1').hide();
 	$('#antenna, #antenna1').click(function e() {
 		$('#antenna, #antenna1').toggle();
 	});
-});
+	return false;
+}
 
-$(document).ready(function f() {
+function f() {
 	var audioElement5 = document.createElement('audio');
 	audioElement5.setAttribute('src', 'audio/click.mp3');
 
@@ -94,5 +110,5 @@ $(document).ready(function f() {
 		audioElement5.play();
 		$('#cassette, #cassette2').toggle();
 	});
-});
-
+	return false;
+}
