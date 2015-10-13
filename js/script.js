@@ -19,7 +19,7 @@ $(document).ready(function a() {
 	$('.pause1').click(function a() {
 		audioElement1.pause();
 	});
-});
+})
 
 $(document).ready(function b() {
 	$('.buttonTop2On').hide();
@@ -60,11 +60,7 @@ $(document).ready(function c() {
 	$('.pause3').click(function c() {
 		audioElement3.pause();
 	});
-	
-	audioElement3.addEventListener('ended', function c() {
-    audioElement3.currentTime = 0;
-    audioElement3.play();
-}, false);
+
 	
 });
 
