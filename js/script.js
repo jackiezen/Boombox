@@ -1,9 +1,15 @@
 // MADE WITH LOVE BY JACQUELYN ZEN
+
+/*jslint browser: true*/
+/*global $, jQuery, init, a, b, c, d, e, f*/
+
 $(function () {
+	"use strict";
 	init();
 });
 
 function init() {
+	"use strict";
 	a();
 	b();
 	c();
@@ -13,6 +19,7 @@ function init() {
 }
 
 function a() {
+	"use strict";
 	$('.buttonTop1On').hide();
 	$('.buttonTop1, .buttonTop1On').click(function a() {
 		$('.buttonTop1, .buttonTop1On').toggle();
@@ -34,6 +41,7 @@ function a() {
 }
 
 function b() {
+	"use strict";
 	$('.buttonTop2On').hide();
 	$('.buttonTop2, .buttonTop2On').click(function b() {
 		$('.buttonTop2, .buttonTop2On').toggle();
@@ -56,6 +64,7 @@ function b() {
 }
 
 function c() {
+	"use strict";
 	$('.buttonTop3On').hide();
 	$('.buttonTop3, .buttonTop3On').click(function c() {
 		$('.buttonTop3, .buttonTop3On').toggle();
@@ -77,6 +86,7 @@ function c() {
 }
 
 function d() {
+	"use strict";
 	var audioElement4 = document.createElement('audio');
 	audioElement4.setAttribute('src', 'audio/tape.mp3');
 
@@ -89,7 +99,7 @@ function d() {
 }
 
 function e() {
-	
+	"use strict";
 	var audioElement6 = document.createElement('audio');
 	audioElement6.setAttribute('src', 'audio/antenna.mp3');
 	
@@ -103,6 +113,7 @@ function e() {
 }
 
 function f() {
+	"use strict";
 	var audioElement5 = document.createElement('audio');
 	audioElement5.setAttribute('src', 'audio/click.mp3');
 
