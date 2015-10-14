@@ -90,10 +90,10 @@ function d() {
 	var audioElement4 = document.createElement('audio');
 	audioElement4.setAttribute('src', 'audio/tape.mp3');
 
-	$('.buttonPower,.buttonControl,.buttonControl2,.buttonControl3,.buttonControl4,.buttonControl5,.buttonControl6,.spin1').hide();
-	$('.buttonPowerOn,.buttonPower,.buttonControl,.buttonControla,.buttonControl2,.buttonControl2a,.buttonControl3,.buttonControl3a,.buttonControl4,.buttonControl4a,.buttonControl5,.buttonControl5a,.buttonControl6,.buttonControl6a,.spin1,.spin').click(function d() {
+	$('.buttonPower,.buttonControl,.buttonControl2,.buttonControl3,.buttonControl4,.buttonControl5,.buttonControl6,.spin1,.speakerTop').hide();
+	$('.buttonPowerOn,.buttonPower,.buttonControl,.buttonControla,.buttonControl2,.buttonControl2a,.buttonControl3,.buttonControl3a,.buttonControl4,.buttonControl4a,.buttonControl5,.buttonControl5a,.buttonControl6,.buttonControl6a,.spin1,.spin,.speakerTopBoom,.speakerTop').click(function d() {
 		audioElement4.play();
-		$('.buttonPowerOn,.buttonPower,.buttonControl,.buttonControla,.buttonControl2,.buttonControl2a,.buttonControl3,.buttonControl3a,.buttonControl4,.buttonControl4a,.buttonControl5,.buttonControl5a,.buttonControl6,.buttonControl6a,.spin1,.spin').toggle();
+		$('.buttonPowerOn,.buttonPower,.buttonControl,.buttonControla,.buttonControl2,.buttonControl2a,.buttonControl3,.buttonControl3a,.buttonControl4,.buttonControl4a,.buttonControl5,.buttonControl5a,.buttonControl6,.buttonControl6a,.spin1,.spin,.speakerTopBoom,.speakerTop').toggle();
 	});
 	return false;
 }
@@ -102,9 +102,9 @@ function e() {
 	"use strict";
 	var audioElement6 = document.createElement('audio');
 	audioElement6.setAttribute('src', 'audio/antenna.mp3');
-	
+
 	$('#antenna1').hide();
-	
+
 	$('#antenna, #antenna1').click(function e() {
 		audioElement6.play();
 		$('#antenna, #antenna1').toggle();
