@@ -3,7 +3,7 @@
 /*jslint browser: true*/
 /*global $, jQuery, init, a, b, c, d, e, f*/
 
-$(function () {
+$(document).ready(function () {
 	"use strict";
 	init();
 });
