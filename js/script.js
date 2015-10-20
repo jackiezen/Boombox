@@ -6,7 +6,7 @@
 $(document).ready(function () {
 	"use strict";
 	init();
-});
+})
 
 function init() {
 	"use strict";
