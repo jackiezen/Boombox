@@ -4,11 +4,11 @@ body {
 	background-color: #F2E4B3;
 	font-family: 'Lobster', cursive;
 	-webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 	cursor: default;
 }
 
@@ -536,11 +536,9 @@ h2 {
 	0% {
 		transform: scale(1);
 	}
-	
 	80% {
 		transform: scale(.98);
 	}
-	
 	100% {
 		transform: scale(.97);
 	}
@@ -550,11 +548,9 @@ h2 {
 	0% {
 		transform: scale(1);
 	}
-	
 	80% {
 		transform: scale(.98);
 	}
-	
 	100% {
 		transform: scale(.97);
 	}
