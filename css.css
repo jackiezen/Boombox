@@ -3,11 +3,9 @@
 body {
 	background-color: #F2E4B3;
 	font-family: 'Lobster', cursive;
-	-webkit-touch-callout: none;
 	-webkit-user-select: none;
-	-khtml-user-select: none;
+	-webkit-user-select: none;
 	-moz-user-select: none;
-	-ms-user-select: none;
 	user-select: none;
 	cursor: default;
 }
@@ -231,9 +229,29 @@ h2 {
 	background-color: #F2E4B3;
 	display: inline-block;
 	margin-right: 10px;
+	-o-animation: buttonControla 1s infinite;
+	-moz-animation: buttonControla 1s infinite;
 	-webkit-animation: buttonControla 1s infinite;
 	animation: buttonControla 1s infinite;
 	pointer-events: none;
+}
+
+@-moz-keyframes buttonControla {
+	from {
+		background-color: #F2E4B3;
+	}
+	to {
+		background-color: #F1582F;
+	}
+}
+
+@-o-keyframes buttonControla {
+	from {
+		background-color: #F2E4B3;
+	}
+	to {
+		background-color: #F1582F;
+	}
 }
 
 @-webkit-keyframes buttonControla {
@@ -271,9 +289,29 @@ h2 {
 	background-color: #F2E4B3;
 	display: inline-block;
 	margin-right: 10px;
+	-o-animation: buttonControl2a 0.7s infinite;
+	-moz-animation: buttonControl2a 0.7s infinite;
 	-webkit-animation: buttonControl2a 0.7s infinite;
 	animation: buttonControl2a 0.7s infinite;
 	pointer-events: none;
+}
+
+@-o-keyframes buttonControl2a {
+	from {
+		background-color: #F2E4B3;
+	}
+	to {
+		background-color: #52438B;
+	}
+}
+
+@-moz-keyframes buttonControl2a {
+	from {
+		background-color: #F2E4B3;
+	}
+	to {
+		background-color: #52438B;
+	}
 }
 
 @-webkit-keyframes buttonControl2a {
@@ -311,9 +349,29 @@ h2 {
 	background-color: #F2E4B3;
 	display: inline-block;
 	margin-right: 10px;
+	-o-animation: buttonControl3a 0.8s infinite;
+	-moz-animation: buttonControl3a 0.8s infinite;
 	-webkit-animation: buttonControl3a 0.8s infinite;
 	animation: buttonControl3a 0.8s infinite;
 	pointer-events: none;
+}
+
+@-o-keyframes buttonControl3a {
+	from {
+		background-color: #F2E4B3;
+	}
+	to {
+		background-color: #0E448B;
+	}
+}
+
+@-moz-keyframes buttonControl3a {
+	from {
+		background-color: #F2E4B3;
+	}
+	to {
+		background-color: #0E448B;
+	}
 }
 
 @-webkit-keyframes buttonControl3a {
@@ -351,9 +409,29 @@ h2 {
 	background-color: #F2E4B3;
 	display: inline-block;
 	margin-right: 10px;
+	-o-animation: buttonControl4a 0.6s infinite;
+	-moz-animation: buttonControl4a 0.6s infinite;
 	-webkit-animation: buttonControl4a 0.6s infinite;
 	animation: buttonControl4a 0.6s infinite;
 	pointer-events: none;
+}
+
+@-o-keyframes buttonControl4a {
+	from {
+		background-color: #F2E4B3;
+	}
+	to {
+		background-color: #E73150;
+	}
+}
+
+@-moz-keyframes buttonControl4a {
+	from {
+		background-color: #F2E4B3;
+	}
+	to {
+		background-color: #E73150;
+	}
 }
 
 @-webkit-keyframes buttonControl4a {
@@ -391,9 +469,29 @@ h2 {
 	background-color: #F2E4B3;
 	display: inline-block;
 	margin-right: 10px;
+	-o-animation: buttonControl5a 0.8s infinite;
+	-moz-animation: buttonControl5a 0.8s infinite;
 	-webkit-animation: buttonControl5a 0.8s infinite;
 	animation: buttonControl5a 0.8s infinite;
 	pointer-events: none;
+}
+
+@-moz-keyframes buttonControl5a {
+	from {
+		background-color: #F2E4B3;
+	}
+	to {
+		background-color: #72C050;
+	}
+}
+
+@-o-keyframes buttonControl5a {
+	from {
+		background-color: #F2E4B3;
+	}
+	to {
+		background-color: #72C050;
+	}
 }
 
 @-webkit-keyframes buttonControl5a {
@@ -431,9 +529,29 @@ h2 {
 	background-color: #F2E4B3;
 	display: inline-block;
 	margin-right: 10px;
+	-o-animation: buttonControl6a 0.5s infinite;
+	-moz-animation: buttonControl6a 0.5s infinite;
 	-webkit-animation: buttonControl6a 0.5s infinite;
 	animation: buttonControl6a 0.5s infinite;
 	pointer-events: none;
+}
+
+@-o-keyframes buttonControl6a {
+	from {
+		background-color: #F2E4B3;
+	}
+	to {
+		background-color: #EA8A72;
+	}
+}
+
+@-moz-keyframes buttonControl6a {
+	from {
+		background-color: #F2E4B3;
+	}
+	to {
+		background-color: #EA8A72;
+	}
 }
 
 @-webkit-keyframes buttonControl6a {
@@ -461,9 +579,29 @@ h2 {
 	background-color: #F2E4B3;
 	display: inline-block;
 	margin-right: 10px;
+	-o-animation: buttonControl 0.8s infinite;
+	-moz-animation: buttonControl 0.8s infinite;
 	-webkit-animation: buttonControl 0.8s infinite;
 	animation: buttonControl 0.8s infinite;
 	pointer-events: none;
+}
+
+@-o-keyframes buttonControl {
+	from {
+		background-color: #F2E4B3;
+	}
+	to {
+		background-color: #A62926;
+	}
+}
+
+@-moz-keyframes buttonControl {
+	from {
+		background-color: #F2E4B3;
+	}
+	to {
+		background-color: #A62926;
+	}
 }
 
 @-webkit-keyframes buttonControl {
@@ -527,20 +665,46 @@ h2 {
 	height: 210px;
 	margin-left: -75px;
 	margin-top: -75px;
+	-o-animation: boom 1s ease-in-out infinite;
+	-moz-animation: boom 1s ease-in-out infinite;
 	-webkit-animation: boom 1s ease-in-out infinite;
 	animation: boom 1s ease-in-out infinite;
 	pointer-events: none;
 }
 
-@-webkit-keyframes boom {
+@-o-keyframes boom {
 	0% {
-		transform: scale(1);
+		-o-transform: scale(1);
 	}
 	80% {
-		transform: scale(.98);
+		-o-transform: scale(.98);
 	}
 	100% {
-		transform: scale(.97);
+		-o-transform: scale(.97);
+	}
+}
+
+@-moz-keyframes boom {
+	0% {
+		-moz-transform: scale(1);
+	}
+	80% {
+		-moz-transform: scale(.98);
+	}
+	100% {
+		-moz-transform: scale(.97);
+	}
+}
+
+@-webkit-keyframes boom {
+	0% {
+		-webkit-transform: scale(1);
+	}
+	80% {
+		-webkit-transform: scale(.98);
+	}
+	100% {
+		-webkit-transform: scale(.97);
 	}
 }
 
@@ -635,10 +799,33 @@ h2 {
 	background-color: #451818;
 	height: 3px;
 	border-radius: 50%;
+	-o-animation: spin 2s infinite linear;
+	-moz-animation: spin 2s infinite linear;
 	-webkit-animation: spin 2s infinite linear;
 	animation: spin 2s infinite linear;
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
 	transform-origin: 50% 50%;
 	pointer-events: none;
+}
+
+@-o-keyframes spin {
+	0% {
+		-o-transform: rotate(0deg);
+	}
+	100% {
+		-o-transform: rotate(360deg);
+	}
+}
+
+@-moz-keyframes spin {
+	0% {
+		-moz-transform: rotate(0deg);
+	}
+	100% {
+		-moz-transform: rotate(360deg);
+	}
 }
 
 @-webkit-keyframes spin {
